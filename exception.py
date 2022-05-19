@@ -17,14 +17,12 @@ try:
     def additoin(x, y):
         x = 10
         y = 20
-        print("Addition:", x + y)
+        print("Addition:", x + b)
     additoin(10, 20)
-except ValueError as e:
+except NameError as e:
     print(e)
 except Exception as e:
     print('Other Error',e)
 else:
     print('the operation is successful')
-
-
-
+    
