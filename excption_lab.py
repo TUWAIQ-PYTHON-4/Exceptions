@@ -9,10 +9,13 @@ class ValueError(Exception):
 
  try:
     addition('e','r')
- except ValueError as ve:
-    print(ve.__class__)
+ except Exception as e:
+    print(e.__class__)
  finally:
     print("the operation is successful")
+
+    addition('e','e')
+
 
 
 
