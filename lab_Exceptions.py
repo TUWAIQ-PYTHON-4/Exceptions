@@ -18,21 +18,9 @@
 
 '''
 
-'''
 
-def additoin(x, y):
-        try:
-           x = 10
-           y = 20
-           print("Addition:" , x + y)
-        except operation_fails as a:
-            print(a)
-        else:
-            print("the operation is successful")
-        
-'''
 
-from decimal import DivisionByZero
+
 
 
 def additoin(x, y):
