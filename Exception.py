@@ -7,8 +7,7 @@ from unicodedata import name
 
 
 def additoin(x, y):
-    if NameError == True:
-        raise NameError("Name Error")  
+   
     x = 10
     y = 20   
     print("Addition:", x +b)
@@ -17,9 +16,7 @@ def additoin(x, y):
 
 try:
     additoin(10, 20)
-except  NameError:
-    print("Name Error")        
-except Exception as name_ex:
-    print(name_ex,name_ex.__class__)   
-finally:
+except  Exception as name_ER:
+    print("Name Error\n",name_ER.__class__)        
+else:
     print("the operation is successful")
