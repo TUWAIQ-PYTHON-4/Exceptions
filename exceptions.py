@@ -8,6 +8,6 @@ def additoin(x, y):
 try:
   additoin(10, 20)
 except Exception as e:
-    print(e.__class__)
+    print(f'an error occured of type {e.__class__}')
 else:
     print("the operation is successful")
