@@ -6,4 +6,3 @@ except NameError as e:
     print(e)
 else:
     print("the operation is successful")
-
