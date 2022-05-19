@@ -10,3 +10,5 @@ try:
     additoin(10, 20)
 except NameError :
     print( "name 'b' is not defined please define")
+else:
+    print("the opreation is true")
